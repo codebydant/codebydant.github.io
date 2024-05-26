@@ -21,11 +21,13 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="css/github-calendar.css"/> -->
   <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -65,17 +67,7 @@
             Loading the data just for you.
         </div>
         <script>
-            GitHubCalendar(".calendar", "dtcMLOps");
-        
-            // or enable responsive functionality:
             GitHubCalendar(".calendar", "dtcMLOps", { responsive: true });
-        
-            // Use a proxy
-            GitHubCalendar(".calendar", "dtcMLOps", {
-               proxy (username) {
-                 return fetch(`https://your-proxy.com/github?user=${username}`)
-               }
-            }).then(r => r.text())
         </script>
       </div>
     </section>
@@ -89,20 +81,20 @@
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <p class="about-text">  
+        <p class="about-text">
         <span class="fa fa-briefcase about-icon"></span>
-        I worked until December 2021 as a machine learning scientist at <a href="https://www.aituring.co/?lang=en" target="_blank">AITuring</a> supervised by <a href="https://scholar.google.com/citations?user=RHOzEBcAAAAJ&hl=es" target="_blank">Diego Ismael León Nieto</a>. My role involves re-factorizing the current machine learning pipeline. 
+        I worked until December 2021 as a machine learning scientist at <a href="https://www.aituring.co/?lang=en" target="_blank">AITuring</a> supervised by <a href="https://scholar.google.com/citations?user=RHOzEBcAAAAJ&hl=es" target="_blank">Diego Ismael León Nieto</a>. My role involves re-factorizing the current machine learning pipeline.
         </p>
 
         <span class="fa fa-briefcase about-icon"></span>
-        I worked until December 2020 as a researcher in electronics, embedded systems, and hardware design at <a href="https://www.technologygateway.ie/network/imar-gateway/" target="_blank">IMaR Technology Gateway</a> supervised by <a href="http://imar.ie/zee_team/krishna-panduru/" target="_blank">Krishna Panduru</a>. My role involves IoT and embedded systems for industry applications. 
+        I worked until December 2020 as a researcher in electronics, embedded systems, and hardware design at <a href="https://www.technologygateway.ie/network/imar-gateway/" target="_blank">IMaR Technology Gateway</a> supervised by <a href="http://imar.ie/zee_team/krishna-panduru/" target="_blank">Krishna Panduru</a>. My role involves IoT and embedded systems for industry applications.
         </p>
 
         <p class="about-text">
         <span class="fa fa-graduation-cap about-icon"></span>
         Obtained my BSc in <strong>Mechatronics Engineering</strong> from the Universidad Autonoma de Occidente (supervised by
         <a href="https://scholar.google.com/citations?user=x3M1JlAAAAAJ&hl=en" target="_blank">Victor Romero</a>). My degree project involved
-        <a href="https://github.com/danielTobon43/iTree3DMap" target="_blank">developing a robotics perception system to estimate geometric features in a tree</a>. 
+        <a href="https://github.com/dtcMLOps/iTree3DMap" target="_blank">developing a robotics perception system to estimate geometric features in a tree</a>.
         </p>
         <p class="about-text">
         <span class="fa fa-globe about-icon"></span>
@@ -132,7 +124,7 @@
       <div class="row">
         <div class="six columns center-text">
           <h6 class="section-header"><a href="https://www.aituring.co/?lang=en">Machine Learning Scientist</a></h6>
-          <img class="mitre-img" src="./pics/companies/logo-ai-turing.png" />         
+          <img class="mitre-img" src="./pics/companies/logo-ai-turing.png" />
           <p>Typically work as a member of the AI team that focuses on researching, building and
           designing self-running ML systems and tools to detect and classify objects. Identify data
           distribution that affects model performance running machine learning debugging and
@@ -144,7 +136,7 @@
           * Improved evaluation metrics such as confusion matrix, accuracy, iou<br>
           * Proposed CV alternatives to current base-line<br>
           * Doing research on MLOps proposals<br>
-          * Enabled custom metrics on Tensorboard          
+          * Enabled custom metrics on Tensorboard
           </p>
         </div>
         <div class="six columns center-text">
@@ -159,7 +151,7 @@
           * Completion of a CMake project for the nRF52 SDK to program an nRF52832 using JLink<br>
           * Developed, modified and debugged an IoT application for getting the strain deformation data of a gauges sensor using an ESP32 micro-controller and the esp-idf framework.
         </p>
-        </div>     
+        </div>
       </div>
     </div>
 
@@ -171,19 +163,19 @@
         <div class="row">
           <div class="twelve columns">
             <div class="row"><a href="https://github.com/dtcMLOps/DBScan-PCL-Optimized" class="project-title">DBScan-PCL-Optimized</a></div>
-            <img id="placeholder2" src="https://github.com/dtcMLOps/DBScan-PCL-Optimized/raw/master/example/scan1.png" />            
+            <img id="placeholder2" src="https://github.com/dtcMLOps/DBScan-PCL-Optimized/raw/master/example/scan1.png" />
             <p>Density-based spatial clustering of applications with noise (DBSCAN) is a data clustering algorithm</p>
           </div>
         </div>
         <div class="row">
           <div class="six columns">
-            <a href="https://github.com/danielTobon43/iTree3DMap" class="project-title">3D Dendrometric feature estimation of an individual tree with OpenMVG-PMVS2</a>
-            <img src="https://github.com/danielTobon43/iTree3DMap/raw/master/example/system.png" />
+            <a href="https://github.com/dtcMLOps/iTree3DMap" class="project-title">3D Dendrometric feature estimation of an individual tree with OpenMVG-PMVS2</a>
+            <img src="https://github.com/dtcMLOps/iTree3DMap/raw/master/example/system.png" />
             <p>This project is a photogrammetric system for dendrometric feature estimation of individual trees. The purpose of this project is to do a 3D reconstruction of an individual tree using Open Multiple View Geometry (openMVG) and get dendrometry estimation (diameter at breast height (DBH), tree crown height, total tree height, crown volume, morphic factor and percentage canopy missing) of a stem tree</p>
           </div>
-          <div class="six columns"> 
-            <a href="https://github.com/danielTobon43/pointcloudToMesh" class="project-title">pointcloudToMesh</a> 
-            <img src="https://github.com/danielTobon43/pointcloudToMesh/raw/master/example/mss1.png" />
+          <div class="six columns">
+            <a href="https://github.com/dtcMLOps/pointcloudToMesh" class="project-title">pointcloudToMesh</a>
+            <img src="https://github.com/dtcMLOps/pointcloudToMesh/raw/master/example/mss1.png" />
             <p>C++ application to convert pcd file, ply file, txt file or xyz point cloud to MESH representation (Gp3).</p>
           </div>
         </div>
@@ -191,14 +183,14 @@
     </div>
 
     <!-- See also section
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="section">
       <h4 class="section-header center-text">See Also</h4>
       <div class="center-text">
       	<div>
-          <h4><a href="https://gist.github.com/danielTobon43">GitHub Gist</a></h4>
+          <h4><a href="https://gist.github.com/dtcMLOps">GitHub Gist</a></h4>
         </div>
-      </div>     
+      </div>
     </div>
     <script>whenReady()</script>
   </div>
