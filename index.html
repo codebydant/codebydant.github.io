@@ -25,19 +25,15 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="css/github-calendar.css"/> -->
-  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
-
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="js/vanilla.js"></script>
   <script src="js/site.js"></script>
+
   <!-- Animation stuff -->
   <script src="js/three.min.js"></script>
   <script src="js/animation.js"></script>
-  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-
 
 </head>
 <body class="code-snippets-visible">
@@ -45,241 +41,579 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
+
     <section class="header">
       <div class="north">
         <h1 class="title fancy-font">Daniel Tobon Collazos</h1>
       </div>
+
       <div class="b">
         <div class="row">
+
           <div class="four columns">
-              <h3 class="fancy-font west"><a href="https://www.linkedin.com/in/danieltobonco43/">LinkedIn</a></h3>
+            <h3 class="fancy-font west">
+              <a href="https://www.linkedin.com/in/danieltobonco43/">LinkedIn</a>
+            </h3>
           </div>
+
           <div class="four columns middle">
             <img class="prof-pic" src="./pics/1628176768676.jpg" />
           </div>
+
           <div class="four columns">
-            <h3 class="fancy-font west"><a href="https://github.com/codebydant">GitHub</a></h3>
+            <h3 class="fancy-font west">
+              <a href="https://github.com/codebydant">GitHub</a>
+            </h3>
           </div>
+
         </div>
-        <!-- Prepare a container for your calendar. -->
-        <div class="calendar">
-            <!-- Loading stuff -->
-            Loading the data just for you.
-        </div>
-        <script>
-            GitHubCalendar(".calendar", "codebydant", { responsive: true });
-        </script>
       </div>
     </section>
 
+
     <!-- About me section
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="section intro">
+
       <h4 class="section-header">About me</h4>
 
       <div>
+
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <p class="about-text">
           <span class="fa fa-briefcase about-icon"></span>
-          I am an MLOps Engineer currently working at 
-          <a href="https://www.smartjob.com" target="_blank">SmartJob</a>, 
-          collaborating with 
-          <a href="https://www.falabella.com.co" target="_blank">Falabella Tech</a> 
-          on the design and implementation of scalable and secure MLOps platforms. 
-          My work focuses on automating training-to-serving pipelines, ensuring reproducibility, 
-          monitoring, governance, and enabling machine learning models to reach production efficiently.
+          I am a <strong>Platform Engineer</strong> focused on cloud infrastructure, automation, and developer platforms,
+          with a strong background in ML Platform and MLOps. I have experience designing and building reliable cloud-based
+          systems using Kubernetes, Terraform, Helm, Docker, CI/CD, and cloud-native services across Google Cloud and Azure.
         </p>
 
         <p class="about-text">
           <span class="fa fa-briefcase about-icon"></span>
-          Previously, I worked as a Machine Learning Engineer at 
-          <a href="https://www.xmartlabs.com/" target="_blank">Xmartlabs</a>, 
-          collaborating with Levi Strauss & Co. on embedding-based recommendation systems 
-          for e-commerce platforms, optimizing similarity search systems and production pipelines on Vertex AI.
+          Most recently, I worked as an MLOps Engineer at
+          <a href="https://www.smartjob.com" target="_blank">SmartJob</a>,
+          collaborating with
+          <a href="https://www.falabella.com.co" target="_blank">Falabella Tech</a>
+          on production ML platform capabilities. My work included Kubernetes-based services,
+          deployment automation, workflow orchestration, observability, and cloud-native infrastructure.
+        </p>
+
+        <p class="about-text">
+          <span class="fa fa-briefcase about-icon"></span>
+          At <a href="https://www.ab-inbev.com/" target="_blank">AB InBev</a>,
+          I contributed to the modernization of a centralized ML platform across Azure and Databricks,
+          working on infrastructure automation, Terraform, cloud networking, Kubernetes, Helm,
+          CI/CD, reusable engineering components, and standardized development and deployment workflows.
+        </p>
+
+        <p class="about-text">
+          <span class="fa fa-briefcase about-icon"></span>
+          Previously, I worked as a Machine Learning Engineer at
+          <a href="https://www.xmartlabs.com/" target="_blank">Xmartlabs</a>,
+          collaborating with Levi Strauss & Co. on production ML systems and cloud-native infrastructure.
+          I worked with Kubernetes, Vertex AI, Docker, GitHub Actions, Workload Identity Federation,
+          artifact management, secrets management, and deployment automation.
         </p>
 
         <p class="about-text">
           <span class="fa fa-graduation-cap about-icon"></span>
-          I obtained my BSc in <strong>Mechatronics Engineering</strong> from 
-          Universidad Autónoma de Occidente, where I developed a robotics perception system 
+          I obtained my BSc in <strong>Mechatronics Engineering</strong> from
+          Universidad Autónoma de Occidente, where I developed a robotics perception system
           to estimate geometric features in trees as my degree project.
         </p>
 
         <p class="about-text">
           <span class="fa fa-globe about-icon"></span>
-          I grew up in <i>Santiago de Cali, Colombia</i>. I’m passionate about building reliable ML systems, 
-          optimizing processes, and continuously learning new technologies that create real-world impact.
+          I grew up in <i>Santiago de Cali, Colombia</i>. I am passionate about building reliable systems,
+          automating engineering workflows, and continuously learning technologies that improve how teams
+          build, deploy, and operate software.
         </p>
 
       </div>
     </div>
 
-    <!-- Publications and Research section
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Core Technologies section
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="section">
-      <h4 id="publications" class="section-header center-text">Publications & Research</h4>
+
+      <h4 class="section-header center-text">Core Technologies</h4>
+
       <div class="row">
-        <div class="twelve columns center-text">
+
+        <!-- Platform & Infrastructure -->
+        <div class="three columns center-text">
+
+          <h6 class="section-header">
+            Platform & Infrastructure
+          </h6>
+
           <p>
-            <a href="https://ieeexplore.ieee.org/document/8588151">A photogrammetric system for dendrometric feature estimation of individual trees</a><br>
-            <u>Daniel Tobon Collazos</u><br>
-            <em>IEEE Colombian Conference on Robotics and Automation (CCRA)</em>.</p>
+            Kubernetes<br>
+            Terraform<br>
+            Helm<br>
+            Docker<br>
+            Linux
+          </p>
+
         </div>
+
+
+        <!-- Cloud -->
+        <div class="three columns center-text">
+
+          <h6 class="section-header">
+            Cloud
+          </h6>
+
+          <p>
+            Google Cloud<br>
+            Azure<br>
+            Cloud Networking<br>
+            IAM / RBAC<br>
+            Secrets Management
+          </p>
+
+        </div>
+
+
+        <!-- Automation & Delivery -->
+        <div class="three columns center-text">
+
+          <h6 class="section-header">
+            Automation & Delivery
+          </h6>
+
+          <p>
+            GitHub Actions<br>
+            CI/CD<br>
+            Infrastructure as Code<br>
+            Python<br>
+            Bash
+          </p>
+
+        </div>
+
+
+        <!-- ML Platform -->
+        <div class="three columns center-text">
+
+          <h6 class="section-header">
+            ML Platform
+          </h6>
+
+          <p>
+            Vertex AI<br>
+            Databricks<br>
+            Airflow<br>
+            MLflow<br>
+            ML Pipelines
+          </p>
+
+        </div>
+
       </div>
     </div>
 
-    <!-- Work experience section
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Publications and Research section
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="section">
-      <h4 class="section-header center-text">Work Experience</h4>
+
+      <h4 id="publications" class="section-header center-text">
+        Publications & Research
+      </h4>
+
+      <div class="row">
+
+        <div class="twelve columns center-text">
+
+          <p>
+            <a href="https://ieeexplore.ieee.org/document/8588151">
+              A photogrammetric system for dendrometric feature estimation of individual trees
+            </a>
+            <br>
+
+            <u>Daniel Tobon Collazos</u>
+            <br>
+
+            <em>
+              IEEE Colombian Conference on Robotics and Automation (CCRA)
+            </em>.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Work experience section
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="section">
+
+      <h4 class="section-header center-text">
+        Work Experience
+      </h4>
+
 
       <!-- Row 1 -->
       <div class="row">
 
+
         <!-- SmartJob -->
         <div class="six columns center-text">
+
           <h6 class="section-header">
-            <a href="#">MLOps Engineer – SmartJob</a>
+            <a href="#">
+              MLOps Engineer – SmartJob
+            </a>
           </h6>
-          <img class="mitre-img" src="./pics/companies/logo-smartjob.png" />
+
+          <img class="mitre-img"
+               src="./pics/companies/logo-smartjob.png" />
+
           <p>
-            Collaborated with <a href="https://www.falabella.com.co" target="_blank">Falabella Tech</a> in the design and implementation of a scalable and secure MLOps platform.
-            Ensured models reach production in a reproducible, traceable, and efficient way.
+
+            Collaborated with
+            <a href="https://www.falabella.com.co" target="_blank">
+              Falabella Tech
+            </a>
+            on cloud-based platform capabilities for production machine learning workloads.
+            Focused on Kubernetes, deployment automation, workflow orchestration,
+            observability, and reliable production systems.
+
             <br><br>
-            * Automated training-to-serving pipelines (CI/CD, IaC, orchestration)<br>
-            * Implemented monitoring, drift detection, alerts, and rollback strategies<br>
-            * Established governance and cost control practices<br>
-            * Strengthened collaboration between Data Science, Data Engineering, and SRE teams
+
+            * Built Kubernetes-based services using Helm, FastAPI, Ingress, and CI/CD
+            <br>
+
+            * Designed Airflow workflows for automated data processing and ML pipelines
+            <br>
+
+            * Integrated Vertex AI, BigQuery, PostgreSQL, and cloud-native services
+            <br>
+
+            * Implemented monitoring and alerting with Grafana, Loki, and Microsoft Teams
+            <br>
+
+            * Built local development environments using Docker Compose
+
           </p>
+
         </div>
+
 
         <!-- Xmartlabs -->
         <div class="six columns center-text">
+
           <h6 class="section-header">
-            <a href="https://www.xmartlabs.com/">Machine Learning Engineer – Xmartlabs</a>
+            <a href="https://www.xmartlabs.com/">
+              Machine Learning Engineer – Xmartlabs
+            </a>
           </h6>
-          <img class="mitre-img" src="./pics/companies/logo-xmartlabs.jpg" />
+
+          <img class="mitre-img"
+               src="./pics/companies/logo-xmartlabs.jpg" />
+
           <p>
-            Collaborated with <a href="https://www.levi.com/US/en_US" target="_blank">Levi Strauss & Co.</a> to build embedding-based recommendation systems for e-commerce applications.
-            Generated 1024-dimension text and image embeddings and optimized similarity-based retrieval systems.
+
+            Collaborated with
+            <a href="https://www.levi.com/US/en_US" target="_blank">
+              Levi Strauss & Co.
+            </a>
+            on production ML systems with a strong focus on cloud infrastructure,
+            containerization, deployment automation, and secure CI/CD workflows.
+
             <br><br>
-            * Computed cosine similarity for text-image matching<br>
-            * Deployed 3 production pipelines on Vertex AI<br>
-            * Reduced Docker image size from 16GB to 8GB<br>
-            * Reduced Vertex AI pipeline time from 16 min to 5 min<br>
-            * Improved GitHub Actions deployment time from 2h to 5 min
+
+            * Deployed containerized workloads on Kubernetes and Vertex AI
+            <br>
+
+            * Reduced Docker image size from 16 GB to 8 GB
+            <br>
+
+            * Reduced Vertex AI pipeline execution time from 16 min to 5 min
+            <br>
+
+            * Migrated CI/CD from Jenkins to GitHub Actions, reducing deployment time from 2h to 5 min
+            <br>
+
+            * Implemented Workload Identity Federation for secure cloud authentication
+            <br>
+
+            * Implemented artifact management, secrets management, CodeQL checks, and alerting
+
           </p>
+
         </div>
 
       </div>
+
 
       <!-- Row 2 -->
       <div class="row">
 
+
         <!-- AB InBev -->
         <div class="six columns center-text">
+
           <h6 class="section-header">
-            <a href="https://www.ab-inbev.com/">Senior Machine Learning Engineer – AB InBev</a>
+            <a href="https://www.ab-inbev.com/">
+              Senior Machine Learning Engineer – AB InBev
+            </a>
           </h6>
-          <img class="mitre-img" src="./pics/companies/logo-abinbev.png" />
+
+          <img class="mitre-img"
+               src="./pics/companies/logo-abinbev.png" />
+
           <p>
-            Designed scalable and reusable ML components to streamline experiment tracking and deployment processes.
-            Built and optimized classification, regression, and clustering models to extract insights from large-scale datasets.
+
+            Contributed to the modernization of a centralized ML platform on Azure and Databricks,
+            focusing on infrastructure automation, platform standardization,
+            reusable engineering components, and developer enablement.
+
             <br><br>
-            * Designed ETL pipelines using Azure Data Factory<br>
-            * Deep learning initiatives using OCR (Pytesseract)<br>
-            * Object detection and classification using embeddings<br>
-            * ML Platform initiative with Airflow + Databricks<br>
-            * Built reusable MLflow components for experimentation and deployment
+
+            * Automated Azure and Databricks infrastructure using Terraform
+            <br>
+
+            * Designed Development, Staging, and Production workspace environments
+            <br>
+
+            * Built reusable Terraform modules and YAML-driven Databricks Job automation
+            <br>
+
+            * Developed reusable Kubernetes deployment tooling using Helm and GitHub Actions
+            <br>
+
+            * Implemented integration testing, monitoring, alerting, and standardized secrets management
+            <br>
+
+            * Received internal recognition for reusable DevOps and MLOps components
+
           </p>
+
         </div>
+
 
         <!-- AI Turing -->
         <div class="six columns center-text">
+
           <h6 class="section-header">
-            <a href="https://www.aituring.co/?lang=en">Machine Learning Scientist – AI Turing</a>
+
+            <a href="https://www.aituring.co/?lang=en">
+              Machine Learning Scientist – AI Turing
+            </a>
+
           </h6>
-          <img class="mitre-img" src="./pics/companies/logo-ai-turing.png" />
+
+          <img class="mitre-img"
+               src="./pics/companies/logo-ai-turing.png" />
+
           <p>
-            Worked as a member of the AI team researching, building, and designing self-running ML systems.
-            Focused on object detection and classification while improving model performance and architecture design.
+
+            Worked on computer vision and deep learning workloads while gaining hands-on experience
+            with cloud-based ML infrastructure and production-oriented ML workflows.
+
             <br><br>
-            * Refactored deep learning models for object detection and classification<br>
-            * Applied Google Cloud Platform resources (Cloud Functions, Vertex AI, Buckets)<br>
-            * Improved evaluation metrics (confusion matrix, accuracy, IoU)<br>
-            * Proposed computer vision alternatives to baseline models<br>
-            * Researched MLOps initiatives<br>
-            * Enabled custom metrics in TensorBoard
+
+            * Modernized deep learning pipelines from TensorFlow 1 to TensorFlow 2
+            <br>
+
+            * Developed object detection and classification workloads
+            <br>
+
+            * Implemented data augmentation and custom evaluation metrics
+            <br>
+
+            * Used Vertex AI, Cloud Functions, and Cloud Storage for ML workflows
+            <br>
+
+            * Containerized training and inference workloads across AWS and Google Cloud
+            <br>
+
+            * Researched MLOps approaches for production ML systems
+
           </p>
+
         </div>
 
       </div>
+
 
       <!-- Row 3 -->
       <div class="row">
 
+
         <!-- IMAR -->
         <div class="six columns center-text">
+
           <h6 class="section-header">
-            <a href="http://imar.ie/">Research Engineer – IMAR</a>
+
+            <a href="http://imar.ie/">
+              Research Engineer – IMAR
+            </a>
+
           </h6>
-          <img class="mitre-img" src="./pics/companies/logo_imar.png" />
+
+          <img class="mitre-img"
+               src="./pics/companies/logo_imar.png" />
+
           <p>
-            Worked in short-term prototyping projects involving embedded systems, computer vision, and IoT applications.
-            Built and deployed solutions for sensor data analysis and quality inspection systems.
+
+            Worked on R&D projects involving software development, embedded systems,
+            computer vision, IoT, and sensor-based applications.
+
             <br><br>
-            * Managed a vision system for quality inspection using OpenCV<br>
-            * Built interface framework for Intel RealSense camera in PCL and ROS<br>
-            * Developed Industrial IoT solutions for biomedical quality inspection<br>
-            * Adjusted RFID project using nRF5 SDK<br>
-            * Completed CMake project for nRF52 SDK using JLink<br>
-            * Developed IoT application using ESP32 and ESP-IDF framework
+
+            * Developed computer vision and industrial IoT prototypes
+            <br>
+
+            * Built interfaces for Intel RealSense cameras using PCL and ROS
+            <br>
+
+            * Developed embedded applications using ESP32 and ESP-IDF
+            <br>
+
+            * Developed C/C++ software and CMake-based projects
+            <br>
+
+            * Integrated hardware and software components for sensor and RFID systems
+
           </p>
+
         </div>
+
       </div>
+
     </div>
+
 
     <!-- Selected projects section
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="section">
-      <h4 class="section-header center-text">Selected Projects</h4>
+
+      <h4 class="section-header center-text">
+        Selected Projects
+      </h4>
+
       <div class="grey-section docs-example">
+
+
         <div class="row">
+
           <div class="twelve columns">
-            <div class="row"><a href="https://github.com/codebydant/DBScan-PCL-Optimized" class="project-title">DBScan-PCL-Optimized</a></div>
-            <img id="placeholder2" src="https://github.com/codebydant/DBScan-PCL-Optimized/raw/master/example/scan1.png" />
-            <p>Density-based spatial clustering of applications with noise (DBSCAN) is a data clustering algorithm</p>
+
+            <div class="row">
+
+              <a href="https://github.com/codebydant/DBScan-PCL-Optimized"
+                 class="project-title">
+
+                DBScan-PCL-Optimized
+
+              </a>
+
+            </div>
+
+            <img id="placeholder2"
+                 src="https://github.com/codebydant/DBScan-PCL-Optimized/raw/master/example/scan1.png" />
+
+            <p>
+              Density-based spatial clustering of applications with noise (DBSCAN)
+              is a data clustering algorithm
+            </p>
+
           </div>
+
         </div>
+
+
         <div class="row">
+
           <div class="six columns">
-            <a href="https://github.com/codebydant/iTree3DMap" class="project-title">3D Dendrometric feature estimation of an individual tree with OpenMVG-PMVS2</a>
+
+            <a href="https://github.com/codebydant/iTree3DMap"
+               class="project-title">
+
+              3D Dendrometric feature estimation of an individual tree with OpenMVG-PMVS2
+
+            </a>
+
             <img src="https://github.com/codebydant/iTree3DMap/raw/master/example/system.png" />
-            <p>This project is a photogrammetric system for dendrometric feature estimation of individual trees. The purpose of this project is to do a 3D reconstruction of an individual tree using Open Multiple View Geometry (openMVG) and get dendrometry estimation (diameter at breast height (DBH), tree crown height, total tree height, crown volume, morphic factor and percentage canopy missing) of a stem tree</p>
+
+            <p>
+
+              This project is a photogrammetric system for dendrometric feature estimation
+              of individual trees. The purpose of this project is to do a 3D reconstruction
+              of an individual tree using Open Multiple View Geometry (openMVG) and get
+              dendrometry estimation (diameter at breast height (DBH), tree crown height,
+              total tree height, crown volume, morphic factor and percentage canopy missing)
+              of a stem tree
+
+            </p>
+
           </div>
+
+
           <div class="six columns">
-            <a href="https://github.com/codebydant/pointcloudToMesh" class="project-title">pointcloudToMesh</a>
+
+            <a href="https://github.com/codebydant/pointcloudToMesh"
+               class="project-title">
+
+              pointcloudToMesh
+
+            </a>
+
             <img src="https://github.com/codebydant/pointcloudToMesh/raw/master/example/mss1.png" />
-            <p>C++ application to convert pcd file, ply file, txt file or xyz point cloud to MESH representation (Gp3).</p>
+
+            <p>
+
+              C++ application to convert pcd file, ply file, txt file or xyz point cloud
+              to MESH representation (Gp3).
+
+            </p>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
 
+
     <!-- See also section
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="section">
-      <h4 class="section-header center-text">See Also</h4>
+
+      <h4 class="section-header center-text">
+        See Also
+      </h4>
+
       <div class="center-text">
-      	<div>
-          <h4><a href="https://gist.github.com/codebydant">GitHub Gist</a></h4>
+
+        <div>
+
+          <h4>
+            <a href="https://gist.github.com/codebydant">
+              GitHub Gist
+            </a>
+          </h4>
+
         </div>
+
       </div>
+
     </div>
+
+
     <script>whenReady()</script>
+
   </div>
+
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
